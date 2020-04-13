@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6bff6fd9;
+}
+body{
+    animation: bodycolor 0.5s 15;
+}
+@keyframes bodycolor{
+    0% {
+        background-color: #f12020;
+    }
+    
+    25% {
+        background-color: #bbb60e;
+    }
+    50% {
+        background-color: #48e085;
+    }
+    75% {
+        background-color: #b221b5;
+    }
+    100% {
+        background-color: #e61024;}
+}
+.navbar{
+    background-color: #6d904e;
+    width: 1306px;
+    height: 38px;       
+}
+.navbar{
+    animation: navbar 0.5s 15;
+}
+@keyframes navbar{
+    0%{width: 5%;background-color: black;}
+    25%{width: 95%;background-color: white;}
+    50%{width: 35%;background-color: black;}
+    75%{width: 65%;background-color: white;}
+    100%{width: 15%;background-color: black;}
+}
+.wrapper{
+    width: 100%;
+}
+.img-info{
+    width: 100%;
+}
+.img-info h2{
+    padding: 20px 2px 2px;
+    color:#5d1c1c;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 23px;
+    line-height: 44px;
+}
+.img-info h2{
+    animation: hsizechange 1s 8;
+}
+@keyframes hsizechange{
+    0%{margin: -147px 391px;}
+    25%{margin:-147px 0px;
+        float: right;}
+    50%{margin: 180px 0px;
+        float: right;}
+    75%{margin: 180px 780px;
+        float: right;}
+    100%{display: none;}
+}
+.img-info p{
+    padding: 0px 2px 2px;
+    color:#0d292fd1;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+.img-info p{
+    animation: psizechange 1s 8;
+}
+@keyframes psizechange{
+    0%{margin: -147px 391px;}
+    25%{margin:-147px 0px;
+        float: right;}
+    50%{margin: 180px 0px;
+        float: right;}
+    75%{margin: 180px 780px;
+        float: right;}
+    100%{display: none;}
+    }
+.img-me{
+    height: 260px;
+    width: 490px;
+    margin: 75px 391px;
+    padding: 15px 15px;
+    border: 2px solid #1549dc;
+
+}
+.img-me{
+    animation: sizechange 10s 1;
+}
+@keyframes sizechange{
+    0%{margin: -147px 391px;}
+    25%{margin:-147px 0px;
+        float: right;}
+    50%{margin: 180px 0px;
+        float: right;}
+    75%{margin: 180px 780px;
+        float: right;}
+    100%{display: none;}
+}
